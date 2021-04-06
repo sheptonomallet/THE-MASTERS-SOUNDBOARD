@@ -1,0 +1,57 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <title>The Master's Soundboard</title>
+
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,width=device-width,user-scalable=no" />
+    <meta name="keywords" content="Soundboard, troll, fun, Master's Soundboard, BE3dARt, Gianluca Imbiscuso" />
+    <meta name="description" content="The Master's Soundboard" />
+    <meta ame="author" content="BE3dART - Gianluca I." />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/soundboard.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body id="body">
+
+    <div class="Header" id="header">
+        <div id="webtitle" style="font-size: 6rem; color: #ff630e">-The Master's Soundboard-</div>
+
+        <div id="information" style="font-size: 2rem; margin-bottom: 2rem; margin-top: 2rem;  display: none;">Howdy! Welcome to BE3dARt's Soundboard "The Master's Soundboard"!<br><br>To play a sound, simply press on the corresponding button.<br> They are sorted and grouped by their length.<br> To search for a specific button, enter into the dialog "Search...".<br> If you desire to stop a sound from playing, either press "Stop Everything" or press "Stop Last".<br>To adjust the volume, simply pull the upper slider to the left to make it quieter. Pull the upper slider to the right to make it louder.<br>To adjust the User Interface scale, pull the lower slider to the left to make it smaller. Pull the lower slider to the right to make it larger.<br><br>Have fun! Greetings BE3dARt</div>
+
+        <div id="informationToggle" style="font-size: 2rem; margin-bottom: 4rem;">Press the title for more information</div>
+        <button id="stopPlayingEverything" class="standartBox">Stop Everything</button>
+        <button id="stopPlayingLast" class="standartBox">Stop Last</button>
+        <input type="text" id="xPos" class="standartBox" placeholder="Search..." style="background-color: white; color: black">
+
+        <input type="range" min="1" max="100" value="100" class="slider" id="myRange">
+        <input type="range" min="1" max="100" value="50" class="slider" id="UIScale">
+
+    </div>
+
+
+
+    <div class="loading_c" id="loading_i">
+
+        <div class="Bar" id="bar">
+
+            <p class="bar_child"> Loading Engine...</p>
+
+        </div>
+
+    </div>
+    <div class="Page-Wrapper" id="page-wrapper">
+    </div>
+
+
+
+</body>
+
+<script type="text/javascript" src="js/soundboard.js"></script>
+
+</html>
